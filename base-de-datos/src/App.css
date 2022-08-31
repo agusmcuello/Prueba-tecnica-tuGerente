@@ -1,0 +1,6 @@
+.table{
+    max-width: 80%;
+    border: solid 5px black;
+    box-shadow: 0.2rem 0.2rem 0.5rem 0.5rem  rgba(0, 0, 0, 0.5);
+    margin-left: 15px;
+}

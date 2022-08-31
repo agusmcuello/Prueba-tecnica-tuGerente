@@ -1,0 +1,9 @@
+.component-pagination{
+    position: absolute;
+    top: 130%;
+    right: 7%;
+}
+.component-pagination p{
+    position: absolute;
+    top: 80%;
+}

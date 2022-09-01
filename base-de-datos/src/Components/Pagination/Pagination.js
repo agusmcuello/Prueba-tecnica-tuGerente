@@ -13,7 +13,7 @@ function Pagination({ usersPerPage, totalUsers, paginate }) {
   return (
     <nav className="component-pagination" data-aos="fade-left">
       <ul className="pagination">
-          <p><b>Páginas</b></p>
+          <p className='titulo-pagina'><b>Páginas</b></p>
         {pageNumbers.map((number) => (
             <li key={number} className="page-item">
             <a href="!#" onClick={() => paginate(number)} className="page-link">

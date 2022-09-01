@@ -7,3 +7,8 @@
     position: absolute;
     top: 80%;
 }
+.titulo-pagina{
+    animation-name: pintarse;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}

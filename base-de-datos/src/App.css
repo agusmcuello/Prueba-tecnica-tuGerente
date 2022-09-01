@@ -1,6 +1,29 @@
-.table{
-    max-width: 80%;
-    border: solid 5px black;
-    box-shadow: 0.2rem 0.2rem 0.5rem 0.5rem  rgba(0, 0, 0, 0.5);
-    margin-left: 15px;
+.table {
+  max-width: 80%;
+  border: solid 5px black;
+  box-shadow: 0.2rem 0.2rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  margin-left: 15px;
+}
+#root {
+  background: linear-gradient(rgb(180, 100, 165), rgb(164, 83, 96));
+  height: 75rem;
+}
+.user :hover {
+  font-weight: bolder;
+}
+.titulo{
+    font-weight: bolder;
+    margin: 50px;
+    animation-name: pintarse;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes pintarse{
+    0%{color: #aaa;}
+    25%{color: rgb(81, 72, 72);}
+    50%{color: rgb(43, 35, 35);}
+    75%{color: rgb(81, 72, 72);}
+    100%{color: #aaa;}
 }
